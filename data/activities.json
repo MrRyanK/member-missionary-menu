@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "categories": {
+    "action": [
+      { "id": "love", "label": "Love" },
+      { "id": "share", "label": "Share" },
+      { "id": "invite", "label": "Invite" }
+    ],
+    "difficulty": [
+      { "id": "easy", "label": "Easy" },
+      { "id": "medium", "label": "Medium" },
+      { "id": "hard", "label": "Hard" }
+    ],
+    "timeframe": [
+      { "id": "right_now", "label": "Right Now" },
+      { "id": "today", "label": "Today" },
+      { "id": "this_week", "label": "This Week" }
+    ]
+  },
+  "difficulty_descriptions": {
+    "easy": "A small, low-pressure action you can do with little preparation.",
+    "medium": "Takes a little thought, planning, or follow-through.",
+    "hard": "May feel more personal or require intentional preparation."
+  },
+  "activities": [
+    {
+      "id": "love-send-appreciation",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Send a note of appreciation",
+      "description": "Message someone a specific thing you appreciate about them. Keep it genuine and make no request in return."
+    },
+    {
+      "id": "love-check-in",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Check in with someone",
+      "description": "Ask someone how they are doing, then give them room to answer without trying to fix everything."
+    },
+    {
+      "id": "love-small-service",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Offer one practical help",
+      "description": "Think of someone who might appreciate help with an ordinary task and offer a specific, manageable option."
+    },
+    {
+      "id": "love-listen",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Make time to listen",
+      "description": "Reach out to someone and ask if they would like to talk. Focus on understanding rather than steering the conversation."
+    },
+    {
+      "id": "love-follow-through",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Follow through on an offer",
+      "description": "If you have offered support recently, check back and do the specific thing you said you would do."
+    },
+    {
+      "id": "love-reconnect",
+      "action": "love",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Reconnect thoughtfully",
+      "description": "Contact someone you have not spoken with in a while. Acknowledge the time apart and let them choose whether to continue the conversation."
+    },
+    {
+      "id": "share-personal-thought",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Share a personal thought",
+      "description": "Tell someone one brief thing that has encouraged you lately, and ask if they would be open to hearing it."
+    },
+    {
+      "id": "share-gratitude-story",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Share a short experience",
+      "description": "Share a personal experience that you are comfortable discussing. Keep it about your own perspective and invite their thoughts."
+    },
+    {
+      "id": "share-resource",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Pass along a helpful resource",
+      "description": "Send a resource you genuinely found useful, with a sentence about why you thought of them. Ask first if you are unsure they would welcome it."
+    },
+    {
+      "id": "share-faith-conversation",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Talk about what matters to you",
+      "description": "If it comes up naturally, explain one way faith is meaningful in your life. Listen with the same care you hope to receive."
+    },
+    {
+      "id": "share-answer-question",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Continue a conversation",
+      "description": "Follow up on a question someone has raised. Share what you know, be honest about what you do not, and offer to look into it together."
+    },
+    {
+      "id": "share-invite-conversation",
+      "action": "share",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Start a meaningful conversation",
+      "description": "Ask someone if they would be comfortable talking about faith or spiritual questions. Let their answer set the direction and pace."
+    },
+    {
+      "id": "invite-casual-activity",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Invite someone to something casual",
+      "description": "Invite someone to join you for a walk, meal, or another ordinary activity. Make it easy for them to say no."
+    },
+    {
+      "id": "invite-community-event",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Invite someone to a community activity",
+      "description": "Mention an upcoming social or service activity and share the practical details so they can decide if it sounds enjoyable."
+    },
+    {
+      "id": "invite-service",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite someone to serve with you",
+      "description": "Offer to do a service project together. Explain what to expect and check that the activity works for them."
+    },
+    {
+      "id": "invite-worship",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite someone to worship with you",
+      "description": "Invite someone to attend a worship service or faith-centered gathering. Offer to sit with them and answer practical questions."
+    },
+    {
+      "id": "invite-follow-up",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "today",
+      "title": "Follow up on an earlier invitation",
+      "description": "Check whether someone has questions about an invitation you already extended. Be warm, avoid repeated pressure, and respect their decision."
+    },
+    {
+      "id": "invite-personal-visit",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Invite someone to meet with missionaries",
+      "description": "Ask whether someone would like to meet with missionaries to discuss their questions. Explain what the meeting involves and leave the choice with them."
+    }
+  ]
+}

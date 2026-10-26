@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f4ee">
+    <meta
+      name="description"
+      content="Find a simple, thoughtful way to love, share, or invite."
+    >
+    <title>Member-Missionary Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-header">
+        <h1 id="page-title">Member-Missionary Menu</h1>
+      </header>
+
+      <section class="selector-panel" aria-label="Activity preferences">
+        <div class="filter-groups" id="filter-groups" aria-live="polite"></div>
+      </section>
+
+      <section class="result-section" aria-label="Activity suggestion">
+        <div class="result-heading">
+          <p class="match-count" id="match-count" aria-live="polite"></p>
+          <button class="button button-secondary" id="next-button" type="button">
+            Next idea <span aria-hidden="true">→</span>
+          </button>
+        </div>
+
+        <article class="activity-card" id="activity-card" aria-live="polite" aria-atomic="true">
+          <div class="card-topline">
+            <span class="action-badge" id="action-badge"></span>
+          </div>
+          <h2 id="activity-title"></h2>
+          <p class="activity-description" id="activity-description"></p>
+          <div class="activity-tags" id="activity-tags"></div>
+          <p class="gentle-reminder">
+            Keep it genuine. The other person’s comfort and choice come first.
+          </p>
+        </article>
+
+        <p class="status-message" id="status-message" role="status"></p>
+      </section>
+    </main>
+  </body>
+</html>
