@@ -2,21 +2,58 @@
   "version": 1,
   "categories": {
     "action": [
-      { "id": "love", "label": "Love" },
-      { "id": "share", "label": "Share" },
-      { "id": "invite", "label": "Invite" }
+      {
+        "id": "love",
+        "label": "Love"
+      },
+      {
+        "id": "share",
+        "label": "Share"
+      },
+      {
+        "id": "invite",
+        "label": "Invite"
+      }
     ],
     "difficulty": [
-      { "id": "easy", "label": "Easy" },
-      { "id": "medium", "label": "Medium" },
-      { "id": "hard", "label": "Hard" }
+      {
+        "id": "easy",
+        "label": "Easy"
+      },
+      {
+        "id": "medium",
+        "label": "Medium"
+      },
+      {
+        "id": "hard",
+        "label": "Hard"
+      }
     ],
     "timeframe": [
-      { "id": "right_now", "label": "Right Now" },
-      { "id": "today", "label": "Today" },
-      { "id": "this_week", "label": "This Week" }
+      {
+        "id": "right_now",
+        "label": "Right Now"
+      },
+      {
+        "id": "today",
+        "label": "Today"
+      },
+      {
+        "id": "this_week",
+        "label": "This Week"
+      }
     ]
   },
+  "sources": [
+    {
+      "id": "local_missionaries",
+      "label": "Local Missionaries"
+    },
+    {
+      "id": "share_site",
+      "label": "Share Site"
+    }
+  ],
   "difficulty_descriptions": {
     "easy": "A small, low-pressure action you can do with little preparation.",
     "medium": "Takes a little thought, planning, or follow-through.",
@@ -166,6 +203,1257 @@
       "timeframe": "this_week",
       "title": "Invite someone to meet with missionaries",
       "description": "Ask whether someone would like to meet with missionaries to discuss their questions. Explain what the meeting involves and leave the choice with them."
+    },
+    {
+      "id": "local-pray-for-opportunities",
+      "source": "local_missionaries",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Pray for opportunities to share the Gospel",
+      "description": "Pray for opportunities to share the Gospel and for help recognizing them when they come."
+    },
+    {
+      "id": "local-offer-prayer-for-someone",
+      "source": "local_missionaries",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Offer to pray for someone",
+      "description": "If someone shares a concern, ask whether they would appreciate you praying for them."
+    },
+    {
+      "id": "local-offer-pray-together",
+      "source": "local_missionaries",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Offer to pray with someone",
+      "description": "Ask if the person would be comfortable praying together. Respect their preference if they decline."
+    },
+    {
+      "id": "local-pray-for-missionary-work",
+      "source": "local_missionaries",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Pray for the missionary work",
+      "description": "Include local missionaries, people they are teaching, and members sharing the Gospel in your prayers."
+    },
+    {
+      "id": "local-give-passalong-card",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Give someone a pass-along card",
+      "description": "Offer a pass-along card when it feels relevant, briefly explaining why you thought they might find it useful."
+    },
+    {
+      "id": "local-text-scripture-or-hymn",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Text a scripture or hymn to a friend",
+      "description": "Share a scripture or hymn that has meant something to you, with a short note about why it came to mind."
+    },
+    {
+      "id": "local-share-weekend-experience",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Tell someone about your weekend",
+      "description": "Mention a meaningful part of your weekend, such as attending sacrament meeting, teaching Sunday School, or a Young Men campout."
+    },
+    {
+      "id": "local-testimony-fast-sunday",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Share your testimony of missionary work",
+      "description": "On Fast Sunday, consider sharing a sincere testimony about missionary work, if you feel comfortable doing so."
+    },
+    {
+      "id": "local-sit-with-unfamiliar-person",
+      "source": "local_missionaries",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Sit with someone new at church",
+      "description": "At church, look for someone you do not know well, including a friend of the missionaries, and ask if you may sit nearby."
+    },
+    {
+      "id": "local-model-inviting-for-kids",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Practice inviting with your kids",
+      "description": "Show your children how to warmly invite a friend to church, seminary, or an activity, and how to respond graciously either way."
+    },
+    {
+      "id": "local-write-book-of-mormon-testimony",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Write your testimony in a Book of Mormon",
+      "description": "Write a brief personal testimony in a copy of the Book of Mormon for missionaries to offer to someone."
+    },
+    {
+      "id": "local-visit-part-member-family",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Visit a part-member family with missionaries",
+      "description": "Coordinate with the missionaries and family first, then join a visit in a way that is comfortable and supportive for everyone."
+    },
+    {
+      "id": "local-share-conference-talk",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Send a favorite general conference talk",
+      "description": "Send a friend a general conference talk you enjoy, with a brief note about what stood out to you."
+    },
+    {
+      "id": "local-share-journal-entry",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Share a recent spiritual journal entry",
+      "description": "Share a short excerpt or thought from a recent spiritual journal entry, choosing only what you are comfortable making personal."
+    },
+    {
+      "id": "local-send-service-opportunity",
+      "source": "local_missionaries",
+      "action": "love",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Let the missionaries know about a service opportunity",
+      "description": "If you know someone who could use help with a task such as yard work, ask permission before connecting them with the missionaries."
+    },
+    {
+      "id": "local-invite-to-missionary-lesson",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Invite a friend to meet with missionaries",
+      "description": "Ask if a friend would like to meet with the missionaries. Explain what to expect and make it comfortable for them to decline."
+    },
+    {
+      "id": "local-host-mission-story-night",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Host a mission story night",
+      "description": "Invite members and friends to share favorite stories from their missionary experiences. Keep the gathering relaxed and welcoming to everyone."
+    },
+    {
+      "id": "local-invite-family-home-evening",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a friend to family home evening",
+      "description": "Invite a friend to join your family for a home evening activity, and let them know what the evening will be like."
+    },
+    {
+      "id": "local-invite-ward-activity",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Invite a friend to a ward activity",
+      "description": "Tell a friend about an upcoming ward activity, share the details, and offer to meet them there."
+    },
+    {
+      "id": "local-invite-book-of-mormon-study",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a friend to Book of Mormon study",
+      "description": "Invite a friend to read or discuss a passage from the Book of Mormon together, at a time and pace that works for them."
+    },
+    {
+      "id": "local-invite-sacrament-meeting",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a friend to sacrament meeting",
+      "description": "Invite a friend to attend sacrament meeting and offer to sit with them."
+    },
+    {
+      "id": "local-invite-missionary-dinner",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a friend to dinner with the missionaries",
+      "description": "Ask a friend if they would enjoy having dinner with you and the missionaries, and explain who will be there."
+    },
+    {
+      "id": "local-share-gospel-impact",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Share how the Gospel has changed your life",
+      "description": "Tell a friend how an aspect of the Gospel of Jesus Christ, such as faith, repentance, or baptism, has influenced your life. Share only what feels comfortable and invite their perspective."
+    },
+    {
+      "id": "local-share-book-of-mormon",
+      "source": "local_missionaries",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Share a copy of the Book of Mormon",
+      "description": "Offer a friend a copy of the Book of Mormon and let them know you would be glad to talk about it if they are interested."
+    },
+    {
+      "id": "local-introduce-yourself-to-neighbor",
+      "source": "local_missionaries",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Introduce yourself to a neighbor",
+      "description": "Knock at a neighbor's door at a considerate time, introduce yourself, and invite them to church. Keep the visit brief and respect their response."
+    },
+    {
+      "id": "share-site-share-a-piece-of-your-testimony-with-someone-over-text",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Share a piece of your testimony with someone over text",
+      "description": ""
+    },
+    {
+      "id": "share-site-hold-the-door-for-someone",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Hold the door for someone",
+      "description": ""
+    },
+    {
+      "id": "share-site-create-and-share-a-short-video-about-how-the-savior-has-blessed-you",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Create and share a short video about how the Savior has blessed you",
+      "description": ""
+    },
+    {
+      "id": "share-site-let-someone-know-you-re-praying-for-them",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Let someone know you’re praying for them",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-on-a-walk-or-drive-to-catch-up",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite someone on a walk or drive to catch up",
+      "description": ""
+    },
+    {
+      "id": "share-site-offer-to-drive-carpool-for-a-family",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Offer to drive carpool for a family",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-neighbor-to-a-family-night",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Invite a neighbor to a family night",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-the-missionaries-to-share-ideas-for-how-you-can-help-them",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite the missionaries to share ideas for how you can help them",
+      "description": ""
+    },
+    {
+      "id": "share-site-offer-a-ride-to-a-ward-activity-to-someone-who-doesn-t-come-to-church-often",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Offer a ride to a ward activity to someone who doesn’t come to church often",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-who-has-shown-interest-to-download-the-book-of-mormon-app",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Invite someone who has shown interest to download the Book of Mormon app",
+      "description": ""
+    },
+    {
+      "id": "share-site-call-a-family-member",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Call a family member",
+      "description": ""
+    },
+    {
+      "id": "share-site-offer-a-snack-and-just-listen-to-someone",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Offer a snack and just listen to someone",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-to-create-a-spiritual-music-playlist-together",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Invite someone to create a spiritual music playlist together",
+      "description": ""
+    },
+    {
+      "id": "share-site-comment-a-gospel-truth-on-a-church-post",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Comment a gospel truth on a Church post",
+      "description": ""
+    },
+    {
+      "id": "share-site-drop-off-dinner-to-someone",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Drop off dinner to someone",
+      "description": ""
+    },
+    {
+      "id": "share-site-text-someone-the-missionaries-are-teaching-to-see-how-they-are-doing",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Text someone the missionaries are teaching to see how they are doing",
+      "description": ""
+    },
+    {
+      "id": "share-site-offer-your-seat-to-someone-on-a-bus-or-train",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Offer your seat to someone on a bus or train",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-if-someone-wants-to-tag-along-to-a-ward-temple-night",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Ask if someone wants to tag along to a ward temple night",
+      "description": ""
+    },
+    {
+      "id": "share-site-pray-for-someone-you-are-struggling-to-love",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Pray for someone you are struggling to love",
+      "description": ""
+    },
+    {
+      "id": "share-site-text-someone-in-your-ward-about-how-the-sacrament-helped-you-this-week",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Text someone in your ward about how the sacrament helped you this week",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-friends-to-reach-out-to-someone-they-know-who-is-serving-a-mission",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Invite friends to reach out to someone they know who is serving a mission",
+      "description": ""
+    },
+    {
+      "id": "share-site-text-a-picture-of-you-together-with-a-friend-you-haven-t-seen-in-a-while",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Text a picture of you together with a friend you haven’t seen in a while",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-friend-to-pray-for-missionary-experiences-with-you",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Ask a friend to pray for missionary experiences with you",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-with-a-classmate-how-your-faith-got-you-through-finals",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Share with a classmate how your faith got you through finals",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-friend-to-join-you-at-an-upcoming-devotional",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Ask a friend to join you at an upcoming devotional",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-a-why-i-believe-message-about-the-church",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Share a “why I believe” message about the Church",
+      "description": ""
+    },
+    {
+      "id": "share-site-recommend-a-gospel-podcast-to-your-sibling",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Recommend a gospel podcast to your sibling",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-friend-to-a-ward-baptism",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Invite a friend to a ward baptism",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-a-message-to-a-friend-sharing-a-personal-miracle",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Send a message to a friend sharing a personal miracle",
+      "description": ""
+    },
+    {
+      "id": "share-site-forward-a-recent-mission-story-to-your-family-group",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Forward a recent mission story to your family group",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-to-go-on-a-walk-with-you",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Invite someone to go on a walk with you",
+      "description": ""
+    },
+    {
+      "id": "share-site-smile-and-sincerely-greet-someone",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Smile and sincerely greet someone",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-work-friend-to-a-ward-activity",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a work friend to a ward activity",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-friends-in-a-group-chat-to-share-their-testimonies-at-some-point-today",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Invite friends in a group chat to share their testimonies at some point today",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-a-small-surprise-care-gift",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Send a small surprise care gift",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-distant-friend-to-a-youth-activity",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a distant friend to a youth activity",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-a-screenshot-of-a-come-follow-me-verse-to-a-sibling",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Send a screenshot of a Come, Follow Me verse to a sibling",
+      "description": ""
+    },
+    {
+      "id": "share-site-post-or-send-a-conference-quote-and-share-how-it-s-influenced-you",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Post or send a conference quote and share how it’s influenced you",
+      "description": ""
+    },
+    {
+      "id": "share-site-suggest-a-spiritual-goal-with-a-colleague-for-the-week-and-do-it-together",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Suggest a spiritual goal with a colleague for the week and do it together",
+      "description": ""
+    },
+    {
+      "id": "share-site-wish-someone-a-happy-birthday",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Wish someone a happy birthday",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-distant-family-member-to-pray-together-tonight-over-video-call",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite a distant family member to pray together tonight over video call",
+      "description": ""
+    },
+    {
+      "id": "share-site-take-dinner-to-a-neighbor",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Take dinner to a neighbor",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-your-favorite-hymn-to-a-neighbor",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Send your favorite hymn to a neighbor",
+      "description": ""
+    },
+    {
+      "id": "share-site-recommend-the-gospel-library-app-to-someone-nearby",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Recommend the Gospel Library app to someone nearby",
+      "description": ""
+    },
+    {
+      "id": "share-site-dm-someone-a-gospel-quote-that-lifted-you-recently",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "DM someone a gospel quote that lifted you recently",
+      "description": ""
+    },
+    {
+      "id": "share-site-offer-service-to-someone-who-recently-moved-in",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Offer service to someone who recently moved in",
+      "description": ""
+    },
+    {
+      "id": "share-site-give-encouragement-to-someone-near-you",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Give encouragement to someone near you",
+      "description": ""
+    },
+    {
+      "id": "share-site-tell-a-nonmember-friend-how-the-book-of-mormon-has-strengthened-you",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Tell a nonmember friend how the Book of Mormon has strengthened you",
+      "description": ""
+    },
+    {
+      "id": "share-site-say-hi-to-a-neighbor",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Say hi to a neighbor",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-the-missionaries-over-for-dinner-and-create-a-sharing-the-gospel-plan",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite the missionaries over for dinner and create a “Sharing the Gospel” plan",
+      "description": ""
+    },
+    {
+      "id": "share-site-call-to-invite-an-old-friend-to-get-lunch-with-you-soon",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Call to invite an old friend to get lunch with you soon",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-friend-to-play-basketball-with-your-ward",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite a friend to play basketball with your ward",
+      "description": ""
+    },
+    {
+      "id": "share-site-visit-someone-who-hasn-t-been-to-church-lately",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Visit someone who hasn’t been to church lately",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-what-you-love-most-about-jesus-christ-to-a-random-contact-in-your-phone",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "hard",
+      "timeframe": "right_now",
+      "title": "Share what you love most about Jesus Christ to a random contact in your phone",
+      "description": ""
+    },
+    {
+      "id": "share-site-suggest-a-mission-story-night-with-friends-members-and-nonmembers",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Suggest a mission story night with friends (members and nonmembers)",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-a-gospel-message-in-a-group-chat",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Share a gospel message in a group chat",
+      "description": ""
+    },
+    {
+      "id": "share-site-pick-up-lunch-for-a-coworker-under-stress",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Pick up lunch for a coworker under stress",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-family-member-to-volunteer-with-you-later",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Invite a family member to volunteer with you later",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-insights-about-what-you-believe-in-your-next-conversation",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "hard",
+      "timeframe": "today",
+      "title": "Share insights about what you believe in your next conversation",
+      "description": ""
+    },
+    {
+      "id": "share-site-host-a-justserve-project-and-invite-neighbors",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Host a JustServe project and invite neighbors",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-friend-to-listen-to-your-favorite-conference-talk-with-you",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Invite a friend to listen to your favorite conference talk with you",
+      "description": ""
+    },
+    {
+      "id": "share-site-recommend-a-gospel-centered-podcast-to-a-family-member",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Recommend a gospel-centered podcast to a family member",
+      "description": ""
+    },
+    {
+      "id": "share-site-write-a-sticky-note-of-encouragement-and-leave-it-for-someone",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Write a sticky note of encouragement and leave it for someone",
+      "description": ""
+    },
+    {
+      "id": "share-site-practice-sharing-the-gospel-as-a-family-in-a-role-play-setting",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Practice sharing the gospel as a family in a role-play setting",
+      "description": ""
+    },
+    {
+      "id": "share-site-pray-for-missionary-experiences",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Pray for missionary experiences",
+      "description": ""
+    },
+    {
+      "id": "share-site-clean-or-organize-something-for-someone-near-you",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Clean or organize something for someone near you",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-to-a-devotional-or-ward-prayer",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite someone to a devotional or ward prayer",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-a-spiritual-thought-in-your-friend-group-chat",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Share a spiritual thought in your friend group chat",
+      "description": ""
+    },
+    {
+      "id": "share-site-pack-care-boxes-for-those-in-need",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Pack care boxes for those in need",
+      "description": ""
+    },
+    {
+      "id": "share-site-call-someone-to-thank-them-for-their-influence-in-your-life",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Call someone to thank them for their influence in your life",
+      "description": ""
+    },
+    {
+      "id": "share-site-pray-in-your-heart-for-someone-near-you",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Pray in your heart for someone near you",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-peer-to-fast-with-you-on-sunday",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Ask a peer to fast with you on Sunday",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-with-a-family-member-a-hymn-or-song-you-have-been-listening-to-recently",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Share with a family member a hymn or song you have been listening to recently",
+      "description": ""
+    },
+    {
+      "id": "share-site-recommend-a-church-book-series-to-your-friends",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Recommend a Church book series to your friends",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-the-book-of-mormon-app",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Share the Book of Mormon app",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-a-loving-text-to-someone-going-through-a-hard-time",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Send a loving text to someone going through a hard time",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-your-testimony-to-a-friend-you-know",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Send your testimony to a friend you know",
+      "description": ""
+    },
+    {
+      "id": "share-site-text-a-struggling-friend-a-verse-that-has-helped-you",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Text a struggling friend a verse that has helped you",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-neighbor-to-a-family-activity",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite a neighbor to a family activity",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-an-old-journal-entry-that-testifies-of-christ",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Share an old journal entry that testifies of Christ",
+      "description": ""
+    },
+    {
+      "id": "share-site-send-a-church-selfie-to-someone-you-ve-lost-contact-with",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Send a church selfie to someone you’ve lost contact with",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-roommate-to-study-a-talk-with-you-this-weekend",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Ask a roommate to study a talk with you this weekend",
+      "description": ""
+    },
+    {
+      "id": "share-site-at-a-sports-activity-share-with-a-friend-how-you-came-to-know-the-church-is-true",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "At a sports activity, share with a friend how you came to know the Church is true",
+      "description": ""
+    },
+    {
+      "id": "share-site-post-a-gospel-image-that-made-you-smile",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Post a gospel image that made you smile",
+      "description": ""
+    },
+    {
+      "id": "share-site-record-a-30-second-testimony-and-send-it-to-the-first-person-who-comes-to-mind",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Record a 30-second testimony and send it to the first person who comes to mind",
+      "description": ""
+    },
+    {
+      "id": "share-site-offer-to-read-the-book-of-mormon-with-a-friend",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Offer to read the Book of Mormon with a friend",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-on-social-media-how-the-book-of-mormon-has-increased-your-faith",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Share on social media how the Book of Mormon has increased your faith",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-friend-to-share-their-favorite-gospel-quote",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite a friend to share their favorite gospel quote",
+      "description": ""
+    },
+    {
+      "id": "share-site-commit-an-invisible-act-of-service-for-someone-important-to-you",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Commit an invisible act of service for someone important to you",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-friend-to-come-to-church-this-sunday-and-plan-the-ride",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Ask a friend to come to church this Sunday, and plan the ride",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-with-someone-next-to-you-how-you-felt-peace-from-the-spirit-today",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Share with someone next to you how you felt peace from the Spirit today",
+      "description": ""
+    },
+    {
+      "id": "share-site-text-to-set-up-an-activity-with-a-nonmember-friend-or-family-member-and-the-missionaries",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Text to set up an activity with a nonmember friend or family member and the missionaries",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-roommate-to-study-come-follow-me-together",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Ask a roommate to study Come, Follow Me together",
+      "description": ""
+    },
+    {
+      "id": "share-site-deliver-a-small-treat-to-someone-you-appreciate",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Deliver a small treat to someone you appreciate",
+      "description": ""
+    },
+    {
+      "id": "share-site-chat-with-someone-elderly",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Chat with someone elderly",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-family-to-church-on-sunday-and-lunch-or-dinner-together-afterward",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a family to church on Sunday and lunch or dinner together afterward",
+      "description": ""
+    },
+    {
+      "id": "share-site-write-a-quick-loving-note-to-leave-for-someone",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Write a quick, loving note to leave for someone",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-a-church-video-or-quote-with-a-neighbor",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Share a Church video or quote with a neighbor",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-friends-to-each-take-a-day-sharing-their-testimonies-via-social-media",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "hard",
+      "timeframe": "this_week",
+      "title": "Invite friends to each take a day sharing their testimonies via social media",
+      "description": ""
+    },
+    {
+      "id": "share-site-ask-a-family-member-to-watch-a-bible-or-book-of-mormon-video-with-you",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Ask a family member to watch a Bible or Book of Mormon video with you",
+      "description": ""
+    },
+    {
+      "id": "share-site-tell-a-sports-friend-they-re-invited-to-your-ysa-activity",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "this_week",
+      "title": "Tell a sports friend they’re invited to your YSA activity",
+      "description": ""
+    },
+    {
+      "id": "share-site-tutor-a-friend-and-share-how-faith-blesses-you",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Tutor a friend and share how faith blesses you",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-your-conversion-story-with-a-friend",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "hard",
+      "timeframe": "today",
+      "title": "Share your conversion story with a friend",
+      "description": ""
+    },
+    {
+      "id": "share-site-message-a-friend-to-remind-them-of-christ-s-love",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Message a friend to remind them of Christ’s love",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-a-friend-to-walk-to-sacrament-meeting-with-you",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Invite a friend to walk to sacrament meeting with you",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-you-saw-today-to-watch-a-church-video",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite someone you saw today to watch a Church video",
+      "description": ""
+    },
+    {
+      "id": "share-site-post-your-favorite-scripture-to-your-instagram-stories",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "right_now",
+      "title": "Post your favorite scripture to your Instagram Stories",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-to-follow-the-church-instagram-page",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "today",
+      "title": "Invite someone to follow the Church Instagram page",
+      "description": ""
+    },
+    {
+      "id": "share-site-slip-a-favorite-scripture-where-someone-will-find-it",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Slip a favorite scripture where someone will find it",
+      "description": ""
+    },
+    {
+      "id": "share-site-watch-a-child-so-a-parent-can-rest",
+      "source": "share_site",
+      "action": "love",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Watch a child so a parent can rest",
+      "description": ""
+    },
+    {
+      "id": "share-site-share-a-gospel-highlight-from-your-journal-or-mission",
+      "source": "share_site",
+      "action": "share",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Share a gospel highlight from your journal or mission",
+      "description": ""
+    },
+    {
+      "id": "share-site-invite-someone-new-to-sit-with-you-at-lunch",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "easy",
+      "timeframe": "today",
+      "title": "Invite someone new to sit with you at lunch",
+      "description": ""
+    },
+    {
+      "id": "share-site-set-up-a-family-dinner-with-a-family-near-you",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "this_week",
+      "title": "Set up a family dinner with a family near you",
+      "description": ""
+    },
+    {
+      "id": "share-site-text-to-invite-a-friend-to-plan-a-general-conference-rewatch",
+      "source": "share_site",
+      "action": "invite",
+      "difficulty": "medium",
+      "timeframe": "right_now",
+      "title": "Text to invite a friend to plan a general conference rewatch",
+      "description": ""
     }
   ]
 }

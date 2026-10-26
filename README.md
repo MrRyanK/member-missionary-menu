@@ -10,8 +10,11 @@ activities in shuffled order without repeats until the current set is exhausted.
 All filters start unselected, so choose at least one option in each group to see
 matching ideas.
 
-The starter catalog contains original suggestions. It is not a verified copy of
-the actions on the Church's Share site.
+The catalog contains original starter suggestions, ideas shared by the local
+missionaries, and deduplicated ideas transcribed into `data/ideas.txt` from the
+Share site. Sources are recorded as metadata in `activities.json` for
+maintenance and are not displayed to users. Effort labels are estimates;
+timeframe labels follow the source idea's timing category.
 
 ## Deploy with Cloudflare Pages
 

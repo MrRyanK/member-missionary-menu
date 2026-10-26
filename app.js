@@ -19,7 +19,6 @@ const filterGroups = document.querySelector("#filter-groups");
 const matchCount = document.querySelector("#match-count");
 const title = document.querySelector("#activity-title");
 const description = document.querySelector("#activity-description");
-const actionBadge = document.querySelector("#action-badge");
 const tags = document.querySelector("#activity-tags");
 const statusMessage = document.querySelector("#status-message");
 const nextButton = document.querySelector("#next-button");
@@ -85,12 +84,13 @@ function updateFilterButtons() {
 
 function setActivity(activity) {
   state.currentActivityId = activity.id;
-  actionBadge.textContent = getCategoryLabel("action", activity.action);
   title.textContent = activity.title;
   description.textContent = activity.description;
+  description.hidden = !activity.description;
   tags.replaceChildren();
 
   const activityTags = [
+    getCategoryLabel("action", activity.action),
     getCategoryLabel("difficulty", activity.difficulty),
     getCategoryLabel("timeframe", activity.timeframe)
   ];
@@ -142,9 +142,9 @@ function updateResults() {
 
   if (matches.length === 0) {
     state.currentActivityId = null;
-    actionBadge.textContent = "";
     title.textContent = "No ideas match those filters";
     description.textContent = "Select at least one option in each filter group to find matching ideas.";
+    description.hidden = false;
     tags.replaceChildren();
     return;
   }
@@ -159,6 +159,7 @@ function handleFilterChange(event) {
   } else {
     state.selections[filter].push(value);
   }
+  state.currentActivityId = null;
   updateFilterButtons();
   updateResults();
 }
@@ -178,6 +179,7 @@ async function start() {
     matchCount.textContent = "";
     title.textContent = "We couldn't load the activity menu";
     description.textContent = "Please check your connection and reload the page.";
+    description.hidden = false;
     statusMessage.textContent = error.message;
   }
 }
